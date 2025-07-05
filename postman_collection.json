@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "369534de-4021-426b-ab61-c6e0fbdf737b",
+		"name": "Task Manager API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46492103",
+		"_collection_link": "https://gabrielalimasotero.postman.co/workspace/Gabriela-Lima-Sotero's-Workspac~ae374b03-afc5-46c7-8b53-8c8682a8bbc3/collection/46492103-369534de-4021-426b-ab61-c6e0fbdf737b?action=share&source=collection_link&creator=46492103"
+	},
+	"item": [
+		{
+			"name": "Create Task",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "List All Tasks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Task by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/api/tasks/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"tasks",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Task",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Task",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Tasks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
